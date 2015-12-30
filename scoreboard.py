@@ -76,6 +76,7 @@ class MainWindow(QtGui.QMainWindow):
             self.connect(self.PlayersL[-1], QtCore.SIGNAL("update_score"), self.update_score_tbl)
             self.ui.tblRanking.setRowCount(len(self.PlayersL))
             self.update_score_tbl()
+            self.ui.ledPlayerName.setText('')
 
     def update_score_tbl(self):
         self.PlayersL.sort(key=self.get_score, reverse=True)
