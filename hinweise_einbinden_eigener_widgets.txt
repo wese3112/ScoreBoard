@@ -1,0 +1,4 @@
+in Ui_xxx Klasse:
+
+- xxx.resize(x, y) => Fenstergröße auskommentieren
+- Klasse von (object) in (QtGui.QWidget) ändern
