@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>590</width>
+    <width>762</width>
     <height>723</height>
    </rect>
   </property>
@@ -19,13 +19,13 @@
      <widget class="QGroupBox" name="groupBox">
       <property name="minimumSize">
        <size>
-        <width>251</width>
+        <width>0</width>
         <height>0</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>251</width>
+        <width>16777215</width>
         <height>16777215</height>
        </size>
       </property>
@@ -42,7 +42,7 @@
           <widget class="QLineEdit" name="ledPlayerName">
            <property name="minimumSize">
             <size>
-             <width>0</width>
+             <width>200</width>
              <height>40</height>
             </size>
            </property>
@@ -117,7 +117,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>590</width>
+     <width>762</width>
      <height>21</height>
     </rect>
    </property>
